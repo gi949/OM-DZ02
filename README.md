@@ -31,6 +31,8 @@ chown victoriametrics:victoriametrics /var/lib/victoriametrics /run/victoriametr
 
 vi /etc/systemd/system/victoriametrics.service
 
+---
+
 [Unit]
 
 Description=VictoriaMetrics
@@ -62,6 +64,8 @@ RestartSec=1
 [Install]
 
 WantedBy=multi-user.target
+
+---
 
 Перечитываем конфигурацию systemd:
 
