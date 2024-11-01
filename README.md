@@ -107,10 +107,15 @@ curl 192.168.56.103:8428
 И добавляем опцию:
 
 remote_write:
+
   - url: http://192.168.56.103:8428/api/v1/write
-    queue_config:
+
+    - queue_config:
+
       max_samples_per_send: 10000
+
       capacity: 20000
+
       max_shards: 30
 	  
 	  
