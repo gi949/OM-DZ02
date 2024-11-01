@@ -106,17 +106,8 @@ curl 192.168.56.103:8428
 
 И добавляем опцию:
 
-remote_write:
+![image](https://github.com/user-attachments/assets/9bb88388-2c7d-4068-b628-2b0d9df421aa)
 
-  - url: http://192.168.56.103:8428/api/v1/write
-
-    queue_config:
-
-      max_samples_per_send: 10000
-
-      capacity: 20000
-
-      max_shards: 30
 
 	  
 	  
