@@ -7,7 +7,7 @@ nginx, php-fpm, database (MySQL)
 
 ---
 
-Скачиваем архим бинарника последней версии VictoriaMetrics
+Скачиваем архив бинарника последней версии VictoriaMetrics
  
 wget https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v1.105.0/victoria-metrics-linux-amd64-v1.105.0.tar.gz
 
