@@ -83,6 +83,7 @@ systemctl status victoriametrics
 
 curl 127.0.0.1:8428
 
+---
 
 Хранение метрик Prometheus в VictoriaMetrics
 
